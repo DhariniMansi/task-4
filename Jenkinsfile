@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/DhariniMansi/task-4.git'
+                git 'https://github.com/DhariniMansi/sample-java-programs.git'
             }
         }
 
